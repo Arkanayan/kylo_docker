@@ -9,7 +9,7 @@ RUN chmod +x setup_mysql.sh && ./setup_mysql.sh
 # useradd -r -m -s /bin/bash activemq'
 
 RUN /bin/bash -c 'echo \"Downloading the RPM\";\
-wget http://bit.ly/2oVaQJE -O kylo-0.8.0.1.rpm;\
+wget http://bit.ly/2Sl0iB8 -O kylo-0.8.0.1.rpm;\
 rpm -ivh kylo-0.8.0.1.rpm;\
 rm kylo-0.8.0.1.rpm'
 
